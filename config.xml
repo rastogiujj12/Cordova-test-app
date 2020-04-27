@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.tracksys.stockmanagement" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Tracksys</name>
+    <description>
+        Tracksys
+    </description>
+    <author email="456chaser@gmailc.com" href="http://cordova.io">
+        CJ
+    </author>
+    <!-- <icon src = "www/resources/logo.png"/> -->
+    <platform name="android">
+    <!-- <icon background="android/mdpi/logo.png" density="mdpi" foreground="android/mdpi/logo.png" />
+    <icon background="www/resources/android/hdpi/logo.png" density="hdpi" foreground="www/resources/android/hdpi/logo.png" />
+    <icon background="android/xhdpi/logo.png" density="xhdpi" foreground="android/xhdpi/logo.png" />
+    <icon background="android/xxhdpi/logo.png" density="xxhdpi" foreground="android/xxhdpi/logo.png" />
+    <icon background="android/xxxhdpi/logo.png" density="xxxhdpi" foreground="android/xxxhdpi/logo.png"/> -->
+    </platform>
+
+    <content src="index.html"/>
+    <plugin name="cordova-plugin-whitelist" spec="1"/>
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
